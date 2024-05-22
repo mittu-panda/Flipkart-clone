@@ -111,7 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(100% + 5px); /* Ensures the dropdown menu appears below the container */
+    top: calc(100% + 5px); 
     left: 0;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -140,6 +140,13 @@ body {
    font-style: normal;
   }
   .dropdown-menu label {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+    background-color: white;
+  }
+  .dropdown-menu1 label {
     display: flex;
     align-items: center;
     padding: 5px 0;
@@ -192,7 +199,7 @@ body {
   }
   .invoice-header .dropdown-symbol {
     margin-left: 63px;
-    font-size: 15px;
+    font-size: 10px;
   }
   .storage{
      margin-top: 30px;
@@ -206,7 +213,7 @@ body {
   }
   .storage-header .dropdown-symbol{
       margin-left: 200px;
-      font-size: 15px;
+      font-size: 10px;
   }
   .storage label{
     display: flex;
@@ -266,6 +273,9 @@ body {
 }
 .redmi{
   margin-left: 90px;
+}
+.side{
+  margin-left: 35px;
 }
 .price{
   margin-left: 40px;
